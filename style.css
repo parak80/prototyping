@@ -1,5 +1,3 @@
-
-
 body {
     font-size: medium;
     background-image: url("background.jpg");
@@ -8,10 +6,11 @@ body {
 }
 
 a img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     align-items: center;
     background: url(logo.jpg);
+    border-radius: 10px;
 }
 
 #pageContainer {
@@ -39,7 +38,7 @@ a img {
 .mainMenuDiv {
     float: left;
     width: 100px;
-    height: 5px;
+    height: 7px;
     background-color: #45ad54;
     border: none;
     overflow: hidden;
@@ -74,8 +73,6 @@ h2 {
     color: #000;
     font-size: x-large;
     margin-left: 30px;
-
-
 }
 
 .listContainer {
@@ -88,13 +85,13 @@ h2 {
     float: left;
     min-height: 100px;
     overflow: hidden;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
     .listItem img {
         width: 300px;
         margin-top: 30px;
-        height:200px;
+        height: 200px;
     }
 
 .pagecolumn {
@@ -109,7 +106,7 @@ footer {
     position: static;
     color: #45ad54;
     font-size: medium;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     text-align: center center;
 }
 
@@ -135,77 +132,92 @@ h3 {
 }
 
 .text2 {
-    margin-left: 150px;;
+    margin-left: 150px;
     padding: 10px;
     font-style: oblique;
-    width:900px;
-    margin-top:20px;
+    width: 900px;
+    margin-top: 20px;
 }
 
 .text3 {
     margin-top: 0 auto;
     text-align: left;
     font-size: large;
-   
 }
 /*Israa*/
-#content{
-background-color:rgba(118, 244, 79, 0.21);
-width: 1000px;
-min-height: 900px;
-margin: 0 auto;
-margin-top:3px;
-border:9px solid;
-border-radius:20px;
-border-color:rgba(54, 163, 46, 0.83);
-box-shadow:
-inset 0 0 0 3px rgba(54, 163, 46, 0.83), 
-0 2px 5px rgba(54, 163, 46, 0.83);
+#content {
+    background-color: rgba(118, 244, 79, 0.21);
+    width: 1000px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 3px;
+    border: 9px solid;
+    border-radius: 20px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
 }
 
-#text{
-float:left;
-margin-left:20px;
-text-align:center;
-border:4px solid rgba(54, 163, 46, 0.83);
-border-radius:20px;
-box-shadow:
-inset 0 0 0 3px rgba(54, 163, 46, 0.83), 
-0 2px 5px rgba(54, 163, 46, 0.83);
-width:950px;
-height:130px;
-color:#368a2b;
-font-size:35px;
-font-family:"Comic Sans MS", cursive, sans-serif;
+#text {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    border: 4px solid rgba(54, 163, 46, 0.83);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+    width: 950px;
+    height: 130px;
+    color: #368a2b;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 80px;
 }
 
 /*the navigation*/
-#meny  div a { 
-display: block;
-float:left;
-width: 150px;
-padding: 5px 10px 5px 10px;
-margin: 10px;
-margin-top:30px;
-margin-bottom:20px;
-margin-left:25px;
-text-align: center;
-font-family: "Comic Sans MS", cursive, sans-serif;
-font-size: 23px;
-color: rgba(66,48,1,1);
-border-radius: 10px;
-border: 1px solid rgba(105,181,50,1);
-background: rgba(122,199,67,1);
-box-shadow: 
-inset 0 0 0 1px rgba(255, 255, 255, 0.3), 
-0 2px 3px rgba(0,0,0,0.70);
+#meny div a {
+    display: block;
+    float: left;
+    width: 130px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 35px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
 }
 
-#meny a:link, #meny a:visited { 
-color: rgba(255,255,255,1);
-text-decoration: none;
+#meny a:link, #meny a:visited {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
 }
 /*pic of the veckanslunch*/
-#div veckanslunch{
-margin-top:250px;
+#veckanslunch {
+   
+    height:10px;
+    float:left;
+    border-color:rgba(181, 135, 45, 0.85);
+    border-image:fill;
+    margin-left:200px;
+    padding:30px;
+    position:relative;
+    align-content:center;
+
+ 
 }
+
+#veckanslunch img {
+    width: 480px;
+    height:120px;
+    align-items: center;
+    background: url(logo.jpg);
+    border-radius: 5px;
+    margin-top:0 auto;
+}
+
